@@ -143,17 +143,17 @@ a {
   background-color: crimson;
 }
 
-.nav  ul .listitems {
+.nav ul .listitems {
   display: inline-block;
 }
 
-.nav  ul .listitems a {
+.nav ul .listitems a {
   display: block;
   font-size: 18px;
   padding: 22px;
 }
 
-.nav  ul .listitems a:hover {
+.nav ul .listitems a:hover {
   background-color: #f3d6a4;
   color: crimson;
   text-decoration: none;
