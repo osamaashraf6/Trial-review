@@ -1,0 +1,193 @@
+/* start index styles */
+
+/*
+1.index styles
+2.universal styles
+3.common styles
+4.content styles
+
+*/
+
+/* end index styles */
+
+/* start universal styles */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 1.7;
+  color: #fff;
+}
+
+/* end universal styles */
+
+/* start common styles */
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.float {
+  float: left;
+}
+
+.float-r {
+  float: right;
+}
+
+.width50 {
+  width: 50%;
+}
+
+.width10 {
+  width: 10%;
+}
+
+.width90 {
+  width: 90%;
+}
+
+.ml {
+  margin-left: 5%;
+}
+
+.mlr {
+  margin: 0 5%;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.clear {
+  clear: both;
+}
+
+.display {
+  display: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.pd-y {
+  padding: 59px 0;
+}
+
+.responsive {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* end common styles */
+
+/* start content styles */
+.sectionone,
+.sectiontwo {
+  height: 30vh;
+  width: 100%;
+  background-color: #3a3d40;
+  position: relative;
+}
+
+.sectionone__wrapper,
+.sectiontwo__wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sectiontwo__wrapper > h1,
+.sectiontwo__wrapper > p {
+  margin-bottom: 15px;
+}
+
+.sectiontwo {
+  border-bottom: 2px solid crimson;
+}
+
+.footer {
+  width: 100%;
+  padding: 20px;
+  color: #fff;
+  background-color: #3a3d40;
+  height: 59px;
+}
+
+.nav {
+  background-color: crimson;
+}
+
+.nav ul .listitems {
+  display: inline-block;
+}
+
+.nav ul .listitems a {
+  display: block;
+  font-size: 18px;
+  padding: 22px;
+}
+
+.nav ul .listitems a:hover {
+  background-color: #f3d6a4;
+  color: crimson;
+  text-decoration: none;
+}
+
+.flexheader {
+  background-color: rgb(46, 154, 221);
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex a img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 20px;
+  padding: 10px 4px;
+  border-radius: 10px;
+}
+
+/* end content styles */
+@media (max-width: 800px) {
+  .flex img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .flex img {
+    width: 100%;
+  }
+}
